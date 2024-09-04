@@ -15,7 +15,7 @@ app.get("/", async (req, res) => {
 });
 
 app.use("/user", userRouter);
-app.use("/url", urlRouter);
+app.use("/", urlRouter);
 
 const PORT = process.env.PORT || 8080;
 
