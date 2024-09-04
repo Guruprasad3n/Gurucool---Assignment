@@ -74,7 +74,7 @@ This project is a URL Shortener service built with Node.js, Express.js, and Mong
 
   - URL: /user/login
   - Method: `POST`
-  - - Body
+  - Body
 
   ```
   {
