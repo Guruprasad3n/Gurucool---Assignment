@@ -35,7 +35,7 @@ This project is a URL Shortener service built with Node.js, Express.js, and Mong
 3. Install the dependencies:
 
    ```bash
-   cd Gurucool---Assignment
+   npm install
    ```
 
 4. Create a `.env` file in the root directory and add the following environment variables:
