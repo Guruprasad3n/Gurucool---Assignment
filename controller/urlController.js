@@ -26,7 +26,7 @@ const redirectURL = async (req, res) => {
     if (url) {
       return res.redirect(url.originalUrl);
     } else {
-      return res.status(404).send({ message: "URL Not Found" }); // Return 404 if URL is not found
+      return res.status(404).send({ message: "URL Not Found" });
     }
   } catch (error) {
     return res.status(500).send({ message: "Something Went Wrong" });
